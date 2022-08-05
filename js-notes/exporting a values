@@ -1,0 +1,20 @@
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+export {uppercaseString};
+
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+  
+}
+export {lowercaseString};
+// examples
+// export const add = (x, y) => {
+//   return x + y;
+// }
+
+// const add = (x, y) => {
+//     return x + y;
+//   }
+  
+//   export { add }; 
