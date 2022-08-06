@@ -1,0 +1,12 @@
+// let yourArray = [
+//    {
+//     a : 1,
+//     b : "srtring",
+//     c : true,
+//     d : 2,
+//     e : false
+//   }
+// ]; 
+
+let yourArray = ["a", 2, true, "c", null, { name: "john" }];
+// Change this line

@@ -1,0 +1,22 @@
+function popShift(arr) {
+  let popped = arr.pop(); // Change this line
+  let shifted = arr.shift(); // Change this line
+  return [shifted, popped];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
+// example :
+
+// let greetings = ['whats up?', 'hello', 'see ya!'];
+
+// greetings.pop();
+// greetings would have the value ['whats up?', 'hello'].
+
+// greetings.shift();
+// greetings would have the value ['hello'].
+
+// We can also return the value of the removed element with either method like this:
+
+// let popped = greetings.pop();
+// greetings would have the value [], and popped would have the value hello.

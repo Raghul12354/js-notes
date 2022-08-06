@@ -1,0 +1,30 @@
+let myNestedArray = [
+  // Only change code below this line
+   ["unshift", false, 1, 2, 3, "complex", "nested"],
+  ["loop", "shift", 6, 7, 1000, "method"],
+  ["concat", false, true, "spread", "array", ["deep"]],
+  ["mutate", 1327.98, "splice", "slice", "push", [["deeper"]]],
+  ["iterate", 1.3849, 7, "8.4876", "arbitrary", "depth", [[["deepest"]]]]
+  // Only change code above this line
+];
+
+
+// example:
+
+// let nestedArray = [
+//     ['deep'],
+//     [
+//       ['deeper'], ['deeper'] 
+//     ],
+//     [
+//       [
+//         ['deepest'], ['deepest']
+//       ],
+//       [
+//         [
+//           ['deepest-est?']
+//         ]
+//       ]
+//     ]
+//   ];
+//   The deep array is nested 2 levels deep. The deeper arrays are 3 levels deep. The deepest arrays are 4 levels, and the deepest-est? is 5.
